@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" total="10" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="297105" started-at="2018-02-13T03:59:42Z" finished-at="2018-02-13T04:04:39Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="297105" started-at="2018-02-13T03:59:42Z" finished-at="2018-02-13T04:04:39Z">
+      <class name="com.sbs.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="18415" started-at="2018-02-12T22:59:42Z" finished-at="2018-02-12T23:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="homePageTitleTest()[pri:1, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="homePageTitleTest" duration-ms="224" started-at="2018-02-12T23:00:00Z" finished-at="2018-02-12T23:00:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title not correct expected [Spencer Prook Strings] but found [Spencer Brook Strings]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title not correct expected [Spencer Prook Strings] but found [Spencer Brook Strings]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at com.sbs.qa.testcases.HomePageTest.homePageTitleTest(HomePageTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="1613" started-at="2018-02-12T23:00:00Z" finished-at="2018-02-12T23:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="13527" started-at="2018-02-12T23:00:46Z" finished-at="2018-02-12T23:00:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="sbsLogoTest()[pri:2, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="sbsLogoTest" duration-ms="10172" started-at="2018-02-12T23:00:59Z" finished-at="2018-02-12T23:01:09Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='PageContainer']/div/header/div/div/div[2]/div[1]/a/img"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: 'DESKTOP-5HPM073', ip: '172.29.99.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\eri01\AppData\Local\Temp\scoped_dir9928_18224}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 102323c4196ce2c4fc5b06f7b711f119
+*** Element info: {Using=xpath, value=.//*[@id='PageContainer']/div/header/div/div/div[2]/div[1]/a/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='PageContainer']/div/header/div/div/div[2]/div[1]/a/img"}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: 'DESKTOP-5HPM073', ip: '172.29.99.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\eri01\AppData\Local\Temp\scoped_dir9928_18224}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.132, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 102323c4196ce2c4fc5b06f7b711f119
+*** Element info: {Using=xpath, value=.//*[@id='PageContainer']/div/header/div/div/div[2]/div[1]/a/img}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:189)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.sbs.qa.pages.HomePage.validateSBSImage(HomePage.java:38)
+	at com.sbs.qa.testcases.HomePageTest.sbsLogoTest(HomePageTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sbsLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="1888" started-at="2018-02-12T23:01:09Z" finished-at="2018-02-12T23:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="16106" started-at="2018-02-12T23:02:05Z" finished-at="2018-02-12T23:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="rentalsPageLinkTest()[pri:3, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="rentalsPageLinkTest" duration-ms="3528" started-at="2018-02-12T23:02:21Z" finished-at="2018-02-12T23:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rentalsPageLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.HomePageTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="1240" started-at="2018-02-12T23:02:25Z" finished-at="2018-02-12T23:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sbs.qa.testcases.HomePageTest -->
+      <class name="com.sbs.qa.testcases.RentalPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="17620" started-at="2018-02-12T23:00:26Z" finished-at="2018-02-12T23:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRentalPageTitle()[pri:1, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="verifyRentalPageTitle" duration-ms="164" started-at="2018-02-12T23:00:43Z" finished-at="2018-02-12T23:00:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRentalPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="tearDown" is-config="true" duration-ms="2065" started-at="2018-02-12T23:00:43Z" finished-at="2018-02-12T23:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="20596" started-at="2018-02-12T23:01:40Z" finished-at="2018-02-12T23:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOrderRentalLink()[pri:2, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="verifyOrderRentalLink" duration-ms="3564" started-at="2018-02-12T23:02:01Z" finished-at="2018-02-12T23:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderRentalLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="tearDown" is-config="true" duration-ms="1219" started-at="2018-02-12T23:02:04Z" finished-at="2018-02-12T23:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="17364" started-at="2018-02-12T23:04:19Z" finished-at="2018-02-12T23:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRentalPagelable()[pri:3, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="verifyRentalPagelable" duration-ms="1822" started-at="2018-02-12T23:04:36Z" finished-at="2018-02-12T23:04:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRentalPagelable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.RentalPageTest@7946e1f4]" name="tearDown" is-config="true" duration-ms="977" started-at="2018-02-12T23:04:38Z" finished-at="2018-02-12T23:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sbs.qa.testcases.RentalPageTest -->
+      <class name="com.sbs.qa.testcases.OrderRentalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="setUp" is-config="true" duration-ms="22531" started-at="2018-02-12T23:00:02Z" finished-at="2018-02-12T23:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyOrderRentalTitle()[pri:1, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="verifyOrderRentalTitle" duration-ms="76" started-at="2018-02-12T23:00:25Z" finished-at="2018-02-12T23:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderRentalTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="tearDown" is-config="true" duration-ms="1083" started-at="2018-02-12T23:00:25Z" finished-at="2018-02-12T23:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="setUp" is-config="true" duration-ms="27347" started-at="2018-02-12T23:01:11Z" finished-at="2018-02-12T23:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="verifyOrderRentalLabel()[pri:2, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="verifyOrderRentalLabel" duration-ms="268" started-at="2018-02-12T23:01:39Z" finished-at="2018-02-12T23:01:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Order a rental label is missing on the page] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Order a rental label is missing on the page] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at com.sbs.qa.testcases.OrderRentalTest.verifyOrderRentalLabel(OrderRentalTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderRentalLabel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="tearDown" is-config="true" duration-ms="1145" started-at="2018-02-12T23:01:39Z" finished-at="2018-02-12T23:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="setUp" is-config="true" duration-ms="23816" started-at="2018-02-12T23:02:30Z" finished-at="2018-02-12T23:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectInstrumentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="selectInstrumentTypeTest" duration-ms="29730" started-at="2018-02-12T23:02:54Z" data-provider="getTestData" finished-at="2018-02-12T23:03:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[School Program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Violin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kun shoulder rest | $ 24.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Yearly : $234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[BEDFORD, MA (01730)]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ramu]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Nepali]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[five]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Nasobha Valley]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Valerie]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Tucker]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[a@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectInstrumentTypeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="tearDown" is-config="true" duration-ms="1398" started-at="2018-02-12T23:03:24Z" finished-at="2018-02-12T23:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="setUp" is-config="true" duration-ms="23138" started-at="2018-02-12T23:03:25Z" finished-at="2018-02-12T23:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="selectInstrumentTypeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="selectInstrumentTypeTest" duration-ms="28527" started-at="2018-02-12T23:03:48Z" data-provider="getTestData" finished-at="2018-02-12T23:04:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[School Program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Violin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kun shoulder rest | $ 24.00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Monthly :  $23]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[BEDFORD, MA (01730)]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Shyam]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Shrestha]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[four]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Acton Public School]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Paul]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[leder]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[b@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate option with value: Monthly :  $23
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: 'DESKTOP-5HPM073', ip: '172.29.99.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Monthly :  $23
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
+System info: host: 'DESKTOP-5HPM073', ip: '172.29.99.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
+	at com.sbs.qa.pages.OrderRental.selectInstrumentName(OrderRental.java:104)
+	at com.sbs.qa.testcases.OrderRentalTest.selectInstrumentTypeTest(OrderRentalTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectInstrumentTypeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sbs.qa.testcases.OrderRentalTest@6276ae34]" name="tearDown" is-config="true" duration-ms="1956" started-at="2018-02-12T23:04:17Z" finished-at="2018-02-12T23:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sbs.qa.testcases.OrderRentalTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

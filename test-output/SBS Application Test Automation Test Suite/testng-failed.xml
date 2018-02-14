@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SBS Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtendReportListener.ExtendReportListener"/>
+  </listeners>
+  <test name="SBS App Test Cases">
+    <classes>
+      <class name="com.sbs.qa.testcases.HomePageTest"/>
+      <class name="com.sbs.qa.testcases.RentalPageTest"/>
+      <class name="com.sbs.qa.testcases.OrderRentalTest"/>
+    </classes>
+  </test> <!-- SBS App Test Cases -->
+  <test name="SBS App Test Cases(failed)">
+    <classes>
+      <class name="com.sbs.qa.testcases.RentalPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sbs.qa.testcases.RentalPageTest -->
+      <class name="com.sbs.qa.testcases.OrderRentalTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="selectInstrumentTypeTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.sbs.qa.testcases.OrderRentalTest -->
+      <class name="com.sbs.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="sbsLogoTest"/>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sbs.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- SBS App Test Cases(failed) -->
+</suite> <!-- Failed suite [SBS Application Test Automation Test Suite] -->

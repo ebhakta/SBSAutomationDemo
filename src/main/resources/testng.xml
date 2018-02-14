@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SBS Application Test Automation Test Suite">
+
+	
+	<listeners>
+		<listener class-name="com.qa.ExtendReportListener.ExtendReportListener"></listener>
+	</listeners>
+
+	<test name="SBS App Test Cases">
+		<classes>
+
+			<class name="com.sbs.qa.testcases.HomePageTest" />
+			<class name="com.sbs.qa.testcases.RentalPageTest" />
+			<class name="com.sbs.qa.testcases.OrderRentalTest" />
+
+		</classes>
+	</test>
+</suite>
